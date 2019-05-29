@@ -1,21 +1,20 @@
+[user]
+  name = kongou
+  email = oukong84@gmail.com
+[github]
+  user = kongou
+  token = 
 [color]
   ui = true
   branch = auto
   diff = auto
   status = auto
-[user]
-  name = kongou
-  email = oukong84@gmail.com
-[push]
-  default = matching
-[core]
-  editor = atom -w
-  excludesfile = /Users/kongou/.gitignore_global
-	    autocrlf = input
 [color "status"]
   changed = yellow
   added = green
   untracked = red
+# [push]
+#   default = matching
 [alias]
   com = commit -am
   c = clone
@@ -49,6 +48,10 @@
   unpublish = "!git push origin :\"$(git rev-parse --abbrev-ref HEAD)\""
 [pager]
   diff = diff-so-fancy | less --tabs=4 -RFX --pattern '^(Date|added|deleted|modified): '
+[core]
+  editor = code -w
+  excludesfile = /Users/kongou/.gitignore_global
+	    autocrlf = input
 [merge]
   tool = vimdiff
 [push]
@@ -72,4 +75,3 @@
 	markEmptyLines = false
 [credential]
   helper = osxkeychain
-
