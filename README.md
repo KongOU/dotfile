@@ -9,5 +9,3 @@
 > curl https://raw.github.com/git/git/master/contrib/completion/git-prompt.sh -o ~/.git-prompt.sh
 
 > git clone git@github.com:KongOu/dotfile.git ~/.dotfiles
-
-> vim +PlugInstall +qall
